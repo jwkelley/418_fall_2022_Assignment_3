@@ -1,0 +1,44 @@
+#Geog 418/518 Fall 2022 
+#Assignment 3: Collecting and Mapping Event-based Observations
+
+#Description
+#-brief summary of assignment
+
+#Learning Objectives
+# Collect event-based observation data in the field
+# Demonstrate knowledge on first-order versus second-order processes
+# Perform point pattern analyses using nearest neighbour and quadrat analysis
+# Visualize patterns using kernel density estimation and k-means clustering
+
+#Step 1: Data Collection
+# With your group, collect data on the location of each large tree (>60 cm circumfrance at breast height) on campus within the study area provided in the map below
+# Create a .csv data set with the following variables: ID, Latitude, Longitude, Species, Circumference
+
+#Step 2: Exploratory Data Analysis
+# Open the .csv file in R and view the first few lines of code to ensure that the file as opened accordingl
+
+#Step 3: Plot the observation locations
+plot()
+#Add a title to the plot
+#Add labels for latitude and longitude
+#Change the symbols of the observation locations to circles at a size of ???
+#Change the colours for the circles to represent the circumference of each tree
+#Export your plot as a PDF
+
+##Step 4: Spatializing your data
+#Convert the .csv file to a spatialpointsdataframe
+#Project your data using a suitable projection
+
+#Step 5: Mapping your data
+#Open shapefile of campus and surrounding area
+#Add the spatailpointsdataframe of tree locations on top of campus data
+#Change colour to represent the circumference of each tree
+#Add a legend
+#Add a scale bar
+
+# Step 6: Create report
+#We will provide a template for them to produce report in R markdown that will include:
+#background
+#data collection methodology
+#plot and map
+#description of spatial pattern at global and local scale
